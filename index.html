@@ -132,7 +132,7 @@ Estamos recopilando información sobre el error y luego reiniciaremos por usted.
       percent = 0;
       countdownWindows.textContent = `${percent}% completo`;
       timer = setInterval(()=>{
-        percent += 5;
+        percent += 1;
         countdownWindows.textContent = `${percent}% completo`;
         if (percent >= 100) { endPrank(); }
       },700);
@@ -157,3 +157,4 @@ Estamos recopilando información sobre el error y luego reiniciaremos por usted.
 </script>
 </body>
 </html>
+
